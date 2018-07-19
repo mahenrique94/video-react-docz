@@ -1,0 +1,44 @@
+---
+name: Button
+route: /
+---
+
+import { Playground, PropsTable } from "docz";
+import Button from "./Button";
+
+# Button
+
+## Basic Usage
+
+<Playground>
+    <Button>Default</Button>
+</Playground>
+
+## Types
+
+<Playground>
+    <Button>Default</Button>
+    <Button type="primary">Primary</Button>
+    <Button type="error">Error</Button>
+    <Button type="success">Success</Button>
+    <Button type="warning">Warning</Button>
+</Playground>
+
+## Sizes
+
+<Playground>
+    <Button>Default</Button>
+    <Button size="sm">Small</Button>
+    <Button size="md">Medium</Button>
+    <Button size="lg">Large</Button>
+    <Button size="bg">Big</Button>
+</Playground>
+
+## Round
+<Playground>
+    <Button round>Default</Button>
+</Playground>
+
+### Properties
+
+<PropsTable of={ Button }/>
